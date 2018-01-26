@@ -23,7 +23,13 @@
  
  */
 // Answer question 4 below
-
+var appsUsed : Int = 3
+print("Since you can't use a portion of an app the total number of apps used must be an Integer")
+var totalHoursSpent : Double = 3.45
+print("You may spend a decimal amount of hours (i.e. 2&1/2 = 2.5 hours) so it should be stored as a Double.")
+var mostPopularApp : String = "Flappy Bird"
+let date : String = "Thursday, January 18, 2018"
+print("Since the 2 statments above conatain letters in their output they must be stored in a String.")
 /*:
  ## Now share your understanding
  
