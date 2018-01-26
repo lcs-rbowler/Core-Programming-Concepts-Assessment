@@ -31,7 +31,19 @@ let currentGrade = 75
 
 // Answer question 6 below
 
-
+if currentGrade >= 0 && currentGrade <= 49 {
+    print("Credit is at risk")
+} else if currentGrade >= 50 && currentGrade <= 59 {
+    print("Level 1")
+} else if currentGrade >= 60 && currentGrade <= 69 {
+    print("Level 2")
+} else if currentGrade >= 70 && currentGrade <= 79 {
+    print("Meeting Expectations")
+} else if currentGrade >= 80 && currentGrade <= 100 {
+    print("Exceeding Expectations")
+} else {
+    print("Invalid Grade. Grade cannot be below 0 or above 100")
+}
 /*:
  ## Now share your understanding
  
