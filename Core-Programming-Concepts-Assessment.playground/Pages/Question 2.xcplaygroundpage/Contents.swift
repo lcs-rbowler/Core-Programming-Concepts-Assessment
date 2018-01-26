@@ -24,7 +24,19 @@
  
  */
 // Answer question 2 below
-
+let bookName = "Book"
+let authorName = "Author"
+let yearPublished = 1993
+print("Since the book names and dates cannot be changed")
+print("it makes sense to use constants to avoid any")
+print("accidental or unwanted changes.")
+var sellingPrice = 30
+var copiesSold = 12
+print("The amount of copies sold could always go up so")
+print("we want to use a variable so the value becomes mutable.")
+print("I listed the selling price as a variable as well since")
+print("the selling price could vary between store to store")
+print("or when the books go on sale.")
 /*:
  ## Now share your understanding
  
